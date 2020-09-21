@@ -9,6 +9,18 @@
     text-decoration: none;
 }
 
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20x;
+}
+
+p {
+    padding: 0.7em 0;
+}
+
 div {
     margin: 0 auto;
 }
@@ -28,6 +40,7 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
+    font-size: 12px;
     text-align: center;
 }
 
@@ -47,7 +60,7 @@ nav ul {
 nav ul ul {
 	display: none;
 	position: absolute;
-    top: 50px;
+    top: 75px;
     background-color: #15202b;
 }
 
@@ -82,10 +95,11 @@ nav ul ul li {
 
 .logo {
     cursor: pointer;
+    font-size: 50px:
 }
 
 .navbar {
-    line-height: 50px;
+    line-height: 75px;
 }
 
 .navbar>li {

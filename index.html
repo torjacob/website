@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Tor Jacob's Web-Page</title>
+        <title>Tor Jacob's Webpage</title>
         <meta charset="utf-8"/>
         <link rel="icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/style.css">
@@ -11,10 +11,18 @@
 
 	<header>
         <nav>
-            <h1 class="logo">Tor Jacob</h1>
+            <h1 class="logo"><a href="/">Tor Jacob</a></h1>
             <ul class="navbar">
                 <li><a href="https://searx.torjacob.no">Searx</a></li>
-                <li><a href="https://git.torjacob.no">Git</a></li>
+                <li class="dropdown"><a href="/repos">Repos</a>
+                    <ul>
+                        <li><a href="https://git.torjacob.no">Git</a></li>
+                        <li><a href="https://gitlab.stud.idi.ntnu.no/torjne">Gitlab-NTNU</a></li>
+                        <li><a href="https://github.com/torjacob">Github</a></li>
+                    </ul>
+                </li>
+                
+                
                 <li class="dropdown"><a href="#">Projects</a>
                     <ul>
                         <li>
@@ -47,15 +55,13 @@
     </header>
 
     <div class="article">
-        <img src="./img/tj.jpg" alt="my lovely face">
-        <h3>Litt info?</h3>
+        <img src="./img/tj.jpg" alt="my lovely face" title="Zoomer Consoomer">
+        <h2>Litt info?</h2>
         <p class="info">
             Dette er min personlige nettside.
             Ikke forvent noen store saker, da den hovedsakelig er til for
             testing av server-prosjekter og småting mens jeg studerer ved
             NTNU.
-        </p>
-        <p class="info">
             Det som er tilgjengelig finner du i navigasjonsfeltet øverst.
             Føl deg fri til å ta en titt på prosjektene mine,
             eller å donere crypto (haha).
@@ -65,13 +71,15 @@
             meta-søkemotor som aggregerer resultater fra andre motorer, 
             samtidig som den beskytter dataen din.
         </p>
-        <h3>In the works:</h3>
+        <h2>In the works:</h2>
         <p class="info">
             Jobber ennå med en implementering av socket.io for multiplayer
-            pokerspill. Samt, eventuelt lommemonster(e).no.
-            Det høres mye verre ut enn det er. Tro du meg..
+            pokerspill. Samt lommemonster(e).no.
+            Det høres mye verre ut enn det er. Tro du meg...
         </p>
     </div>
+
+    <footer>Tor Jacob Neple 2020</footer>
 
     </body>
 </html>
