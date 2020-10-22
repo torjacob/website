@@ -1,0 +1,48 @@
+* {
+  background-color: rgb(24, 26, 27);
+  color: rgb(232, 230, 227);
+  text-decoration: none;
+}
+
+html {
+  background:url(../img/background.gif);
+}
+
+body {
+  min-height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  padding: 0 1em;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  text-shadow: rgba(200, 200, 200, 0.68) 0 2px 3px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  padding: .4em;
+}
+
+#portrait {
+  float: right;
+  width: 250px;
+  margin: 1em;
+}
+
+#construction {
+  max-width: 300px;
+  margin: auto;
+  display: block;
+}
